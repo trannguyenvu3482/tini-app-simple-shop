@@ -1,0 +1,18 @@
+<carousel arrows indicator-dots autoplay onChange="onChange" class="slider">
+  <carousel-item class="slider-item">
+    <image class="slider-image w-full" mode="scaleToFill"
+      src="https://salt.tikicdn.com/cache/w1080/ts/banner/17/7c/6f/4b600d4584606cda76ab1e876fc4434a.png.webp" />
+  </carousel-item>
+  <carousel-item class="slider-item">
+    <image class="slider-image w-full" mode="scaleToFill"
+      src="https://salt.tikicdn.com/cache/w1080/ts/banner/82/dc/47/821126e1f686e0bfc2216a6f6483b32b.png.webp" />
+  </carousel-item>
+  <carousel-item class="slider-item">
+    <image class="slider-image w-full" mode="scaleToFill"
+      src="https://salt.tikicdn.com/cache/w1080/ts/banner/d3/69/1a/60feab5b86f69f93b7fc5db012e06a63.jpg.webp" />
+  </carousel-item>
+  <carousel-item class="slider-item">
+    <image class="slider-image w-full" mode="scaleToFill"
+      src="https://salt.tikicdn.com/cache/w1080/ts/banner/86/01/80/9cc52a4ba3745036b4f04f5dd141275c.jpg.webp" />
+  </carousel-item>
+</carousel>

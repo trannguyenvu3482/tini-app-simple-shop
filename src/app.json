@@ -1,0 +1,30 @@
+{
+  "pages": ["pages/index/index", "pages/search/index", "pages/user/index"],
+  "window": {
+    "defaultTitle": "Nhà sách Tiki",
+    "allowsBounceVertical": "No"
+  },
+  "tabBar": {
+    "borderTopActiveColor": "#1A94FF",
+    "items": [
+      {
+        "name": "Trang chủ",
+        "pagePath": "pages/index/index",
+        "icon": "assets/images/icons/HomeIcon.png",
+        "activeIcon": "assets/images/icons/HomeIcon.png"
+      },
+      {
+        "name": "Tìm kiếm",
+        "pagePath": "pages/search/index",
+        "icon": "assets/images/icons/SearchIcon.png",
+        "activeIcon": "assets/images/icons/SearchIcon.png"
+      },
+      {
+        "name": "Người dùng",
+        "pagePath": "pages/user/index",
+        "icon": "assets/images/icons/UserIcon.png",
+        "activeIcon": "assets/images/icons/UserIcon.png"
+      }
+    ]
+  }
+}

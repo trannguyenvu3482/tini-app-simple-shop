@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.page {
+  width: 100%;
+  background-color: #fff;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.list-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  height: 300px;
+}
+
+.item-image {
+  width: 100%;
+}
+
+.item-badge {
+  width: 70%;
+  height: 30px;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.item-price {
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.item-discount {
+  position: block;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: white;
+  font-size: 12px;
+  background-color: red;
+  border-radius: 11px;
+  padding: 2px 8px;
+}

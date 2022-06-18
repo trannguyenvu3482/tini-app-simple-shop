@@ -1,0 +1,26 @@
+<view class="page">
+  <my-slider />
+
+  <view class="container">
+    <view class="list-item">
+      <block tiki:for="{{items}}">
+        <view class="item">
+          <image mode="aspectFill" class="item-image" src="{{item.thumbnail_url}}" />
+          <image mode="aspectFit" class="item-badge" src="../../assets/images/badges/freeship_tikifast_badge.png" />
+          <view class="item-text">
+            <text number-of-lines="2" class="item-name">
+              {{item.name}}
+            </text>
+            <text number-of-lines="2" class="item-price">{{item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+              ".")}} đ
+              <block tiki:if="{{item.discount_rate > 0}}">
+                <text class="item-discount">-{{item.discount_rate}}%</text>
+              </block>
+
+            </text>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

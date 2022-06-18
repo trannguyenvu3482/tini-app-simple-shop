@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-slider": "../../components/Slider/index"
+  }
+}

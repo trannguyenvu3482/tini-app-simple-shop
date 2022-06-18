@@ -1,0 +1,11 @@
+{
+  "name": "my-testing-app",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.tiniapp.myshoppingapp",
+    "buildNumber": 1
+  },
+  "dependencies": {
+    "@tiki.vn/tini-style": "^0.12.0"
+  }
+}
